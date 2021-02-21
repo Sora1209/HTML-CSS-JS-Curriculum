@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    background-color: rgb(226, 222, 222);
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+#menu{
+	width: 35px;
+	height: 30px;
+	margin: 30px 0 20px 20px;
+	cursor: pointer;
+}
+
+.bar{
+	height: 5px;
+	width: 100%;
+	background-color: rgb(34, 32, 133);
+	display: block;
+	border-radius: 5px;
+	transition: 0.3s ease;
+}
+
+#bar1{
+	transform: translateY(-4px);
+}
+
+#bar3{
+	transform: translateY(4px);
+}
+
+.nav li
+{
+	list-style: none;
+	padding: 16px 0;
+    color: white;
+}
+
+.nav{
+	padding: 0;
+	margin: 0 20px;
+	transition: 0.5s ease;
+	display: none;
+}
+
+.menu-bg, #menu-bar{
+	top:0;
+	left: 0;
+	position: fixed;
+}
+
+.menu-bg{
+	z-index: 1;
+	width: 0;
+	height: 0;
+	margin: 30px 0 20px 20px;
+	background: radial-gradient(circle,rgb(0, 0, 71),rgb(0, 0, 141));
+	border-radius: 50%;
+	transition: 0.5s ease;
+}
+
+#menu-bar{
+	z-index:2;
+
+}
+
+.change-bg{
+	width: 1050px;
+	height: 800px;
+	transform: translate(-60%,-30%);
+}
+
+.change .bar{
+	background-color: white;
+}
+
+.change #bar1{
+	transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar3{
+	transform: translateY(-6px) rotate(45deg);
+}
+
+.change #bar2{
+	opacity: 0;
+}
+
+.change{
+	display: block;
+} 
+
+.header-name{
+    font-size: 35px;
+    background-color: rgb(0, 0, 71);
+    color: white;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    height: 200px;
+}
+
+.sub-name{
+    font-size: 20px;
+}
+
+.profile-img{
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    margin-top: -140px;
+}
+
+.social-icons{
+    margin-top: 230px;
+    text-align: center;
+    padding: 5px;
+}
+
+.fa-github{
+    font-size: 25px;
+    color: rgb(158, 158, 158);
+    margin-right: 10px;
+    transition-duration: 0.3s;
+}
+
+.fa-github:hover{
+    font-size: 30px;
+    color: black;
+}
+
+.fa-whatsapp{
+    font-size: 25px;
+    color: rgb(158, 158, 158);
+    margin-right: 10px;
+    transition-duration: 0.3s;
+}
+
+.fa-whatsapp:hover{
+    font-size: 30px;
+    color: black;
+}
+
+.fa-facebook{
+    font-size: 25px;
+    color: rgb(158, 158, 158);
+    margin-right: 10px;
+    transition-duration: 0.3s;
+}
+
+.fa-facebook:hover{
+    font-size: 30px;
+    color: black;
+}
+
+.fa-linkedin-in{
+    font-size: 25px;
+    color: rgb(158, 158, 158);
+    margin-right: 10px;
+    transition-duration: 0.3s;
+}
+
+.fa-linkedin-in:hover{
+    font-size: 30px;
+    color: black;
+}
+
+.fa-instagram{
+    font-size: 25px;
+    color: rgb(158, 158, 158);
+    margin-right: 10px;
+    transition-duration: 0.3s;
+}
+
+.fa-instagram:hover{
+    font-size: 30px;
+    color: black;
+}
+
+.fa-envelope{
+    font-size: 25px;
+    color: rgb(158, 158, 158);
+    transition-duration: 0.3s;
+}
+
+.fa-envelope:hover{
+    font-size: 30px;
+    color: black;
+}
+
+.first-card{
+    background-color: white;
+    width: 1000px;
+    height: 580px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 3px 3px rgba(177, 177, 177, 0.733);
+    border-radius: 5px;
+    margin-top: -250px;
+}
+
+.cards{
+    background-color: white;
+    width: 1000px;
+    height: 580px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 3px 3px rgba(177, 177, 177, 0.733);
+    border-radius: 5px;
+}
+
+.card-title{
+    font-size: 40px;
+    text-align: left;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.card-text{
+    text-align: justify;
+    padding: 20px;
+}
+
+.page-footer{
+    background-color: rgb(0, 0, 71) ;
+    color: white;
+    bottom: 0;
+    padding: 5px;
+    text-align: left;
+    font-size: 12px;
+}
